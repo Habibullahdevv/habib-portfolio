@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Used to add dark mode right away, adding here prevents any flicker -->
+    <script>
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.getItem('dark_mode') && localStorage.getItem('dark_mode') == 'true') {
+                document.documentElement.classList.add('dark');
+            }
+        }
+    </script>
+    <link rel="preload" as="style" href="https://folll.io/build/assets/app-c87e352c.css" /><link rel="stylesheet" href="https://folll.io/build/assets/app-c87e352c.css" data-navigate-track="reload" />    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+            <script async defer data-domain="folll.io" src="https://analytics.elerion.com/js/plausible.js"></script>
+        <title>resume</title>
+        <link rel="shortcut icon" href="img/android-chrome-192x192.png" type="image/x-icon" />
+    <style>
+        
+        [x-cloak] {
+            display: none !important;
+        }
+
+        body {
+            background-color: #4d4d4d;
+            /* background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%23dddddd' fill-opacity='0.29' fill-rule='evenodd'/%3E%3C/svg%3E"); */
+        }
+    </style>
+</head>
+
+<body class="min-h-screen antialiased ">
+    <div class="container max-w-5xl px-12 py-12 mx-auto bg-white shadow-2xl sm:my-10 sm:p-12">
+    <div class="relative flex flex-col w-full space-y-8 sm:pr-8 sm:space-x-6 sm:flex-row sm:space-y-0">
+        <div class="absolute w-2 h-64 bg-black sm:w-4 -top-12 -left-2"></div>
+        <div class="flex-1 pl-6">
+            <h2 class="text-3xl font-light text-gray-800 sm:text-5xl">Habibullah
+                                    <br><span  class="text-5xl font-bold sm:text-7xl">Mushtaq
+                    </span>
+                            </h2>
+            <h3 class="mt-8 sm:pr-12">I&#039;m Habibullah Mushtaq Ahmed, a front-end developer who loves crafting digital solutions. My strong foundation in Web development technologies allows me to solve problems creatively and with a user-centric approach.</h3>
+        </div>
+        <div class="relative flex justify-center sm:block">
+            <div class="absolute w-48 h-48 ring-[6px] ring-yellow-300 sm:-left-6 sm:-top-4"></div>
+            <img  src="img/back.jpg" alt="logo" class="w-48 grayscale">
+        </div>
+    </div>
+    <section class="flex flex-col mt-20 sm:flex-row">
+        <aside class="w-72">
+                            <div class="relative px-8 border-l-[12px] border-gray-300 pb-2 mb-8">
+                    
+
+                    <h3 class="font-semibold uppercase">Contact info</h3>
+                    <div class="flex flex-col mt-5 space-y-2">
+                                                                            <div>
+                                <h4 class="text-sm font-semibold">Email</h4>
+                                <p class="text-sm text-gray-500">habibullahmushtaq2005@gmail.com</p>
+                            </div>
+                                                                            <div class="w-56">
+                                <h4 class="text-sm font-semibold">Web</h4>
+                                <a class="block overflow-hidden text-sm text-gray-600 hover:text-gray-400 text-ellipsis whitespace-nowrap"
+                                    target="_blank"
+                                    href="https://habib-thedev.netlify.app/">https://habib-thedev.netlify.app/</a>
+                            </div>
+                                                                            <div>
+                                <h4 class="text-sm font-semibold">Phone</h4>
+                                <p class="text-sm text-gray-500">(+92)-3471711676 </p>
+                            </div>
+                                            </div>
+                </div>
+            
+            
+                                        <div class="relative px-8 mb-8 border-l-[12px] border-gray-300 pb-2">
+                    
+                    <h3 class="font-semibold uppercase">Social media</h3>
+                    <div class="flex flex-col mt-5 space-y-2">
+                                                                                                                <a href="https://www.linkedin.com/in/habibullah-mushtaq-4a5798294/" target="_blank"
+                                    class="flex items-center space-x-3 hover:text-gray-500">
+                                    <div
+                                        class="flex items-center justify-center p-[6px] text-white bg-black rounded-full">
+                                        <svg class="sm:w-4 w-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6.5 9.5H2V22H6.5V9.5Z" stroke="currentColor" stroke-width="1" stroke-linejoin="round" />
+    <path
+        d="M6.5 4.25C6.5 5.49264 5.49264 6.5 4.25 6.5C3.00736 6.5 2 5.49264 2 4.25C2 3.00736 3.00736 2 4.25 2C5.49264 2 6.5 3.00736 6.5 4.25Z"
+        stroke="currentColor" stroke-width="1" stroke-linejoin="round" />
+    <path
+        d="M14.0001 9.5H9.5V22H14.0001V15.7502C14.0001 14.7837 14.7835 14.0002 15.75 14.0002C16.7165 14.0002 17.5 14.7837 17.5 15.7502V22H21.9987L22.0001 14.0002C22.0001 11.515 19.6364 9.50024 17.2968 9.50024C15.9649 9.50024 14.7767 10.1531 14.0001 11.174V9.5Z"
+        stroke="currentColor" stroke-width="1" stroke-linejoin="round" />
+</svg>
+                                    </div>
+                                    <div class="text-sm font-medium capitalize">linkedin</div>
+                                </a>
+                             
+                                                                                                                                            <a href="https://www.facebook.com/profile.php?id=61554037590729" target="_blank"
+                                    class="flex items-center space-x-3 hover:text-gray-500">
+                                    <div
+                                        class="flex items-center justify-center p-[6px] text-white bg-black rounded-full">
+                                        <svg class="sm:w-4 w-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M6.18182 10.3333C5.20406 10.3333 5 10.5252 5 11.4444V13.1111C5 14.0304 5.20406 14.2222 6.18182 14.2222H8.54545V20.8889C8.54545 21.8081 8.74951 22 9.72727 22H12.0909C13.0687 22 13.2727 21.8081 13.2727 20.8889V14.2222H15.9267C16.6683 14.2222 16.8594 14.0867 17.0631 13.4164L17.5696 11.7497C17.9185 10.6014 17.7035 10.3333 16.4332 10.3333H13.2727V7.55556C13.2727 6.94191 13.8018 6.44444 14.4545 6.44444H17.8182C18.7959 6.44444 19 6.25259 19 5.33333V3.11111C19 2.19185 18.7959 2 17.8182 2H14.4545C11.191 2 8.54545 4.48731 8.54545 7.55556V10.3333H6.18182Z"
+        stroke="currentColor" stroke-width="1" stroke-linejoin="round" />
+</svg>
+                                    </div>
+                                    <div class="text-sm font-medium capitalize">facebook</div>
+                                </a>
+                                                                                                                                            <a href="https://www.instagram.com/habibullah_thedesigner/" target="_blank"
+                                    class="flex items-center space-x-3 hover:text-gray-500">
+                                    <div
+                                        class="flex items-center justify-center p-[6px] text-white bg-black rounded-full">
+                                        <svg class="sm:w-4 w-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+        stroke="currentColor" stroke-width="1" stroke-linejoin="round" />
+    <path
+        d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+        stroke="currentColor" stroke-width="1" />
+    <path d="M17.5078 6.5L17.4988 6.5" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
+                                    </div>
+                                    <div class="text-sm font-medium capitalize">instagram</div>
+                                </a>
+                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                </div>
+            
+            
+            
+
+            
+          
+            
+            
+            
+
+
+            
+                            <div class="relative px-8 mb-8 border-l-[12px] border-gray-300 pb-2">
+                    
+                    <h3 class="font-semibold uppercase">Interests</h3>
+                    <div class="flex flex-col mt-5 space-y-2">
+                                                    <div class="text-sm font-medium">Coding</div>
+                                                    <div class="text-sm font-medium">Gaming</div>
+                                                    <div class="text-sm font-medium">Driving</div>
+                                                    <div class="text-sm font-medium">Cycling</div>
+                                            </div>
+                </div>
+                    </aside>
+
+        
+        <main class="flex-1 mt-20 sm:mt-0">
+            
+                            <div class="px-10 mb-16 border-l-2 border-gray-800">
+                    <h3 class="font-semibold uppercase">Skills</h3>
+                    <div class="flex flex-wrap gap-3 mt-5">
+                                                    <div
+                                class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                                <div>WordPress</div>
+                                <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                        fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div
+                            class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                            <div>MYSQL</div>
+                            <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                    fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+
+                            <div
+                            class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                            <div>PHP</div>
+                            <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                    fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                                                    <div
+                                class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                                <div>HTML5</div>
+                                <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                        fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                                                    <div
+                                class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                                <div> Bootstrap</div>
+                                <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                        fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                                                   
+                                                   
+                                                    <div
+                                class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                                <div>GSAP</div>
+                                <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                        fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                                                    <div
+                                class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                                <div>TailwindCSS</div>
+                                <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                        fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                                        
+                                                    <div
+                                class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                                <div>Javascript</div>
+                                <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                        fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                                                    <div
+                                class="flex items-center gap-2 px-3 py-1 text-sm font-medium border border-gray-900 rounded-full">
+                                <div>python </div>
+                                <div class="p-0.5 text-white bg-gray-800 rounded-full"><svg viewBox="0 0 24 24"
+                                        fill="none" class="w-3 h-3" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                          
+                                            </div>
+                </div>
+            
+            
+                            <div class="px-10 border-l-2 border-gray-800">
+                    <h3 class="font-semibold uppercase">Work experience</h3>
+                    <div class="flex flex-col mt-5 space-y-4">
+                        
+                        <div class="relative flex flex-col gap-6 sm:flex-row">
+    <div
+        class="absolute top-0 w-5 h-5 bg-white border-2 border-gray-900 rounded-full -left-[51px] ring-4 ring-white">
+    </div>
+    <div class="w-48 font-semibold">
+        feb
+        2023 -
+        Present 
+    </div>
+    <div class="flex-1">
+        <h3 class="font-semibold">WordPress Developer (As a Freelancer)</h3>
+        <p class="mb-2 text-sm">Karachi, Pakistan</p>
+        <p class="text-sm text-gray-600">As a WordPress Developer, my primary duty involves crafting and executing responsive, user-friendly, and captivating websites. In this role, transforming creative ideas into practical web applications. I have build projects: E-commerce Stores, Landing Page and business websites. Additionally, I stay abreast of the latest WordPress updates and trends within the industry. (I have work experiance on Fiverr)</p>
+    </div>
+</div>
+                                                    <div class="relative flex flex-col gap-6 sm:flex-row">
+                                <div
+                                    class="absolute top-0 w-5 h-5 bg-white border-2 border-gray-900 rounded-full -left-[51px] ring-4 ring-white">
+                                </div>
+                                <div class="w-48 font-semibold">
+                                    Jan
+                                    2024 -
+                                    Present 
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="font-semibold"> Frontend Developer (As a Freelancer)</h3>
+                                    <p class="mb-2 text-sm">Karachi, Pakistan</p>
+                                    <p class="text-sm text-gray-600">As a front-end developer  my primary duty involves crafting and executing responsive, user-friendly, and captivating websites. In this role, transforming creative ideas into practical web applications.<br />
+
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            
+            
+                            <div class="px-10 mt-16 border-l-2 border-gray-800">
+                    <h3 class="font-semibold uppercase">Education</h3>
+                    <div class="flex flex-col mt-5 space-y-4">
+                                                    <div class="relative flex flex-col gap-6 sm:flex-row">
+                                <div
+                                    class="absolute top-0 w-5 h-5 bg-white border-2 border-gray-900 rounded-full -left-[51px] ring-4 ring-white">
+                                </div>
+                                <div class="w-48 font-semibold">
+                                    Oct
+                                    2023 -
+                                    April 2024
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="font-semibold">Aptech Academy</h3>
+                                    <p class="mb-2 text-sm">Front-end Web Development</p>
+                                    <p class="text-sm text-gray-600">Created responsive web pages using JS, HTML, CSS, Flexbox/Grid, Bootstrap, visual design and accessibility to build projects: Tribute Page, Product Landing Page, Business websites.</p>
+                                </div>
+                            </div>
+                                                    <div class="relative flex flex-col gap-6 sm:flex-row">
+                                <div
+                                    class="absolute top-0 w-5 h-5 bg-white border-2 border-gray-900 rounded-full -left-[51px] ring-4 ring-white">
+                                </div>
+                                <div class="w-48 font-semibold">
+                                    May
+                                    2024 -
+                                    Present
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="font-semibold">Aptech Academy</h3>
+                                    <p class="mb-2 text-sm">Full Stack Development, Full Stack Development</p>
+                                    <p class="text-sm text-gray-600">I am currently enrolled in full-stack Web Development </p>
+                                </div>
+                            </div>
+                                                    <div class="relative flex flex-col gap-6 sm:flex-row">
+                                <div
+                                    class="absolute top-0 w-5 h-5 bg-white border-2 border-gray-900 rounded-full -left-[51px] ring-4 ring-white">
+                                </div>
+                                <div class="w-48 font-semibold">
+                                    Jan
+                                    2023 -
+                                    may 2023
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="font-semibold">Youtube</h3>
+                                    <p class="mb-2 text-sm">WordPress website development</p>
+                                    <p class="text-sm text-gray-600">Created responsive web pages and accessibility to build projects: Woocommerce-Store, Tribute Page, Survey Form, Product Landing Page, Technical Doc.</p>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            
+
+        </main>
+    </section>
+</div>
+
+</body>
+
+</html>
